@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="135dp"
+        android:layout_height="70dp"
+
+        android:layout_marginBottom="24dp"
+
+
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/high_jersey"
+
+        android:text="@string/play"
+        android:textColor="#9C9898"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/record"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/howtoplay"
+        android:layout_width="228dp"
+        android:layout_height="70dp"
+
+        android:layout_marginBottom="84dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/high_jersey"
+        android:text="@string/HowToPlay"
+
+        android:textColor="#9C9898"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/record"
+        android:layout_width="188dp"
+        android:layout_height="70dp"
+
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/high_jersey"
+        android:text="@string/record"
+        android:textColor="#9C9898"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/howtoplay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:editable="true"
+        android:ems="10"
+        android:fontFamily="@font/high_jersey"
+        android:hint="Enter Your Name"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/play"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.388"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.489" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

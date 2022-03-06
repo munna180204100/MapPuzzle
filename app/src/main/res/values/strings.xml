@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Map Puzzle</string>
+    <string name="play"> P L A Y </string>
+    <string name="record"> R E C O R D S</string>
+    <string name="HowToPlay">How To Play ?</string>
+    <string name="inst">    How To Play ??</string>
+
+    <string name="instructions">     => The map will be devided into some pieces.Each piece represents a part of the whole map.
+        You will have to place all the pieces so that those pieces make a proper map of our country.</string>
+</resources>
